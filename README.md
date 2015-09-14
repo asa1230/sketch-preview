@@ -1,31 +1,28 @@
-# Introduction
+# 简介
+这个SKETCH插件可以帮助设计师实施预览画板内容到手机上。
 
-This [Sketch](http://bohemiancoding.com/sketch) plugin provides a preview
-command (⌘P) that will export the currently selected Artboard at a configurable
-preview size (⌘⌥P) and open the resulting image file in [Skala
-Preview](http://bjango.com/mac/skalapreview).
+ (⌘P) 调整画板显示尺寸到实际的设备尺寸 
+ (⌘⌥P) a画板的内容投影到[Skala
+Preview](http://bjango.com/mac/skalapreview)上.
 
-# Installation
+# 安装
 
-*Note: The plugin is using the new bundle format as of `v0.8.0`. Remove any old
-files from the plugin directory if upgrading from a previous version. You can
-open the plugin directory in the Finder with the `Plugins -> Reveal Plugins
-Folder...` menu item.*
+*提示: 插件目前升级到 `v0.8.0`版本.如果之前安装过老版本，请在路径下移除旧文件并粘贴新文件
 
 [Download](https://github.com/marcisme/sketch-preview/archive/master.zip) or
 clone the latest version of this project, and open the
 `SketchPreview.sketchplugin` file.
 
-# Usage
+# 使用方法
 
-* Make sure you have an Artboard selected
-* Select `Preview` from the Plugins menu or press ⌘P
-* Select `Preview Setup...` from the plugins menu or Press ⌘⌥P to configure the
-  plugin
+* 确保你已经选中了一个图层
+* 选择 `Preview` 插件菜单或快捷键（⌘P )
+* 选择 `Preview Setup...` 在插件菜单或点击快捷键（⌘⌥P )t去配置快捷键
 
-## Scaling Modes
 
-There are now several scaling modes intended for iOS design. These modes either
+## 缩放模式
+
+目前的iOS已经有多个设备分辨率. These modes either
 change the output size to *2x* or *3x* based on Artboard dimensions, or they
 attempt to scale the preview up to simulate the Display Zoom or compatibility
 modes available on the iPhones 6. The simulated modes are not currently
