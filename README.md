@@ -22,43 +22,33 @@ clone the latest version of this project, and open the
 
 ## 缩放模式
 
-目前的iOS已经有多个设备分辨率. These modes either
-change the output size to *2x* or *3x* based on Artboard dimensions, or they
-attempt to scale the preview up to simulate the Display Zoom or compatibility
-modes available on the iPhones 6. The simulated modes are not currently
-accurate, and the final image will be 1 to 2 pixels off in the smaller
-dimension.
+目前的iOS已经有多个设备分辨率. 都可以支持
 
-As of `v0.6.0`, Artboards that are larger in one dimension should be scaled
-correctly, allowing preview of mockups of scrollable content.
 
-# Compatibility
+# 兼容性
 
-This plugin has been used successfully with the following versions of software.
-Not all combinations of each application have been tested, but this should give
-you some idea of the latest versions that have worked for other people. Feel
-free to submit a [pull request](https://github.com/marcisme/sketch-preview/compare/)
-if you've used the plugin with a newer version of any of these applications.
+目前插件已经可以完美的支持一下的版本并列出清单.
+由于设备限制，并没有完全的测试每个机型.我们欢迎您 [反馈意见](https://github.com/marcisme/sketch-preview/compare/)
 
 * Sketch 3.3.2 (12043)
 * Skala Preview 2.0 (205)
 * Skala View for iOS 2.0
 * Skala View for Android 1.2.2
 
-# Troubleshooting
+# 故障排除
 
-If you find any issues, you can try to reproduce them with `PreviewTest.sketch`,
+如果发现任何问题, 你们可以 `PreviewTest.sketch`,
 found in the test directory of this repository. You can also check the `Enable
 debug logging` option in the `Preview Setup` and look at the output in
 `Console.app` to get a better idea of what is going on. Please open an
 [issue](https://github.com/marcisme/sketch-preview/issues/new) if there is still
 a problem.
 
-# Author
+# 作者
 
 [Marc Schwieterman](https://github.com/marcisme) ([@mschwieterman](https://twitter.com/mschwieterman) / [@mbs](https://app.net/mbs))
 
-# Contributors
+# 贡献者
 
 Big thanks to these people for their contributions.
 
@@ -66,6 +56,6 @@ Big thanks to these people for their contributions.
 * [David Klawitter](https://github.com/davidklaw)
 * [Tomas Linhart](https://github.com/TomasLinhart)
 
-# License
+# 开源协议
 
 MIT License
