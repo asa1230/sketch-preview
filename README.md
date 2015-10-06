@@ -59,3 +59,11 @@ Big thanks to these people for their contributions.
 # 开源协议
 
 MIT License
+
+#如何下载
+
+目前skala的很多服务都部署在亚马逊云服务上面－简单说，就是被我党屏蔽了。优狐哥这里留一个百度云的下载方式，提供osx端的下载
+#http://pan.baidu.com/s/1eQnqlAq
+
+如果有需要安卓的同学，可以私信我～暂时不晓得大家会不会用安卓。如果是iPhone的话 大家自己App Store搜索。
+https://bjango.com/mac/skalapreview/ 这个是官网
