@@ -3,7 +3,7 @@
 
  (⌘P) 调整画板显示尺寸到实际的设备尺寸 
  (⌘⌥P) a画板的内容投影到[Skala
-Preview](http://bjango.com/mac/skalapreview)上.
+Preview](https://bjango.com/mac/skalapreview/)上.
 
 # 安装
 
